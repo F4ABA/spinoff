@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <%- include('partials/head.ejs', { data: { title: 'Resources' }}) %>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <%- include('partials/header.ejs', { data: { state: 'resources' }}) %>
+
+    <section class="text-center">
+      <div style="padding: 50px 20px 40px; background: rgba(0,44,119,0.9);">
+        <h3 class="text-white title-font">Call My Senator</h3>
+      </div>
+    </section>
+
+    <section class="section-margin ptb-80">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-6">
+            <p>Call your Senators and Representative by submitting your zip code below.  This will return their names, clickable phone numbers, and other information. If that doesn’t work for any reason, you can still look them up online: <a href="http://www.senate.gov/general/contact_information/senators_cfm.cfm" target="_blank">Senators</a> and <a href="http://www.house.gov/representatives/find/" target="_blank">Representatives</a>.</p>
+            <p>If you would like to volunteer even more actively, join us <a href="/help">here</a>.</p>
+
+            <div class="loader" component-loading></div>
+
+            <component key=banak load=b></component>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <%- include('partials/footer.ejs') %>
+
+  </div>
+
+  <%- include('partials/scripts.ejs') %>
+
+</body>
+
+</html>
