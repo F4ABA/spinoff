@@ -1,0 +1,14 @@
+
+bower_components
+dist
+awsconfig.js
+
+*.log
+*.dump
+*.key
+*.crt
+*.pem
+
+commands_to_run.md
+
+.DS_Store
