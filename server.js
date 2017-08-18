@@ -16,9 +16,13 @@ const routes = [
   { path: '/contact',         file: 'contact.html' },
   { path: '/help',            file: 'help.html' },
   { path: '/issues/climate',  file: 'issues/climate.html' },
-  { path: '/issues/russia',   file: 'issues/russia.html' },
+  { path: '/issues/places',   file: 'issues/places.html' },
+  { path: '/issues/russia',   file: 'issues/economy.html' }, // Legacy route
+  { path: '/issues/economy',  file: 'issues/economy.html' },
+  { path: '/issues/politics', file: 'issues/politics.html' },
   { path: '/issues/healthcare', file: 'issues/healthcare.html' },
   { path: '/issues/immigration', file: 'issues/immigration.html' },
+  { path: '/issues/immigration-campaign', file: 'issues/immigration-campaign.html' },
   { path: '/issues/plannedparenthood', file: 'issues/plannedparenthood.html' },
 ]
 
