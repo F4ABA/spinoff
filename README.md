@@ -3,7 +3,7 @@ Fight for Better website
 
 ### Setup
 
-Dev site up at http://fightforbetter.s3-website-us-east-1.amazonaws.com/
+Dev site up at http://spinoff-fightforbetter.s3-website-us-east-1.amazonaws.com/
 
 Local setup with
 ```
