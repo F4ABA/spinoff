@@ -12,7 +12,7 @@ const routes = [
   { path: '/invest',          file: 'invest.html' },
   { path: '/donate',          file: 'donate.html' },
   { path: '/initiatives',     file: 'initiatives.html' },
-  { path: '/places',          file: 'issues/places.html' },
+  { path: '/places',          file: 'places.html' },
   { path: '/immigration-campaign', file: 'immigration-campaign.html' },
   { path: '/resources',       file: 'resources.html' },
   { path: '/contact',         file: 'contact.html' },
